@@ -14,7 +14,6 @@
 
     <!-- Inline scripts are forbidden in Firefox OS apps (CSP restrictions),
          so we use a script file. -->
-    <script src="app.js" defer></script>
 
   </head>
 
@@ -29,7 +28,7 @@
           //install hosted
           // This URL must be a full url.
           var manifestUrl =
-              'https://autra.github.io/test-gh-pages-plz-ignore/test_hosted/manifest-hosted.webapp';
+              'https://phdux35.github.io/todo_app/hostedManifest.webapp';
           var req = navigator.mozApps.install(manifestUrl);
           req.onsuccess = function() {
             alert(this.result.origin);
@@ -42,7 +41,7 @@
           //install packaged 
           // This URL must be a full url.
           var manifestUrl =
-              'https://autra.github.io/test-gh-pages-plz-ignore/test_hosted/manifest.webapp';
+              'https://phdux35.github.io/todo_app/packagedManifest.webapp';
           var req = navigator.mozApps.installPackage(manifestUrl);
           req.onsuccess = function() {
             alert(this.result.origin);
