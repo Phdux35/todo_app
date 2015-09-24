@@ -1,0 +1,16 @@
+{
+  "name": "TODO",
+  "description": "A TODO list",
+  "launch_path": "/todo_app/index.html",
+  "icons": {
+    "16": "/todo_app/icons/icon16x16.png",
+    "48": "/todo_app/icons/icon48x48.png",
+    "60": "/todo_app/icons/icon60x60.png",
+    "128": "/todo_app/icons/icon128x128.png"
+  },
+  "developer": {
+    "name": "Philippe D",
+    "url": "https://phdux35.github.io/todo_app/"
+  }
+}
+
