@@ -2,6 +2,7 @@
   "name": "TODO2",
   "description": "A TODO list",
   "launch_path": "/index.html",
+  "version":"2.0",
   "icons": {
     "16": "/icons/icon16x16.png",
     "48": "/icons/icon48x48.png",

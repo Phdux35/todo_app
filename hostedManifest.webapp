@@ -1,6 +1,7 @@
 {
   "name": "TODO",
   "description": "A TODO list",
+  "version":"2.0",
   "launch_path": "/todo_app/index.html",
   "icons": {
     "16": "/todo_app/icons/icon16x16.png",
